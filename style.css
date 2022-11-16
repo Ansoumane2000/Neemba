@@ -1,0 +1,176 @@
+/*Zone de code pour modifier tout le site au complet(avec toutes les pages) */
+#General{
+
+    width : 100%;
+    height : 100%;
+    display : flex;
+    margin : auto;
+    flex-direction : column;
+    justify-content : space-between;
+	font-size: 22pt;
+    
+}
+.Nom_site {
+    font-size: 22pt;
+}
+.logo{
+    display: flex;
+    margin-left: 10px;
+}
+#Navigation{
+    display: flex;
+    justify-content: row;
+    width: 100%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Barre_Navigation{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+.Liste_Navigation{
+    width: 50%;
+    display: flex;
+}
+.Liste_Navigation li {
+    list-style: none;
+    padding: 26px 30px;
+}
+  
+.Liste_Navigation a {
+    text-decoration: none;
+    color: black;
+}
+  
+.Liste_Navigation a:hover {
+    color: blue;
+}
+  
+
+#Body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    background-color: red;
+}
+#Actualite{
+    display: flex;
+    min-width: 100%;
+  /*  background-image: url("img/face-painting-2848057_1920-1024x603.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+    background-color: brown;*/
+    height: 600px;
+}
+
+#Actualite p{
+    text-align: center;
+    font-size: 22pt;
+}
+.diapo{
+   position: relative;
+   overflow: hidden;
+   
+}
+.caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+    
+}
+.caption p{
+    
+    text-decoration: none;
+    color: white;
+}
+# nav-droite,#nav-gauche{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: blue;
+    font-size: 3em;
+
+}
+#nav-droite{
+    right: 20px;
+}
+#nav-gauche{
+    left:20px;
+}
+.elements{
+    display: flex;   
+}
+.element{
+    flex: 1 0 100%;
+    position: relative;
+}
+.element > img{
+    width: 100%;
+    height: 700px;
+}
+#Service{
+
+    height: 800px;
+    background-color: white;
+}
+
+.Service h1{
+    text-decoration: underline;
+}
+
+#Service table {
+    width: 100%;
+    text-align: center;
+    font-size: 22pt;
+    background-color: bisque;
+}
+
+#Footer{
+    width: 100%;
+    height: 10%;
+    background-color: aqua;
+}
+/*Zone de code pour modifier la page jeu video*/
+#Zonejeu{
+    display: flex;
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    margin-bottom: auto;
+    background-color: aliceblue;
+}
+.TitreJeu{
+    display: flex;
+    justify-content: center;
+}
+#ZoneBoutton{
+    display: flex;
+    width: 80%;
+    height: 10%;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    align-items: center;
+    background-color: aqua;
+    
+}
+
+#ZoneBoutton tr{
+    align-items: center;
+    
+}
+
+#ZoneBoutton td{
+    
+    font-size: 15pt;
+}
